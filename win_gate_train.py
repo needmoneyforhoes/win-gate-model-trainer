@@ -23,8 +23,8 @@ USAGE on VPS:
 import json, math, sys, os, pickle, random
 from collections import defaultdict
 
-sys.path.insert(0, '/home/polybot/polymarket-bot')
-os.chdir('/home/polybot/polymarket-bot/data')
+sys.path.insert(0, '.')
+os.chdir('./data')
 random.seed(42)
 
 print("Loading market_history.jsonl (ticks)...")

@@ -37,3 +37,8 @@ Prints dataset stats, walk-forward AUC, per-threshold fire/flip tables, Bonferro
 ## Data
 
 Code only. The `.jsonl`/`.pkl` inputs are gitignored and come from the private `polymarket-data` repo. `win_gate_train.py` reads `market_history.jsonl` (per-market ticks) and `market_recap_history.jsonl` (fires) from `$DATA_DIR`, and writes `win_gate_model.pkl` back there. The script currently hard-codes the engine layout via `sys.path.insert` and `os.chdir`; point both at your local `polymarket-data` checkout before running.
+
+## Feedback
+
+Suggestions, improvements, or something not working? Please
+[open an issue](https://github.com/needmoneyforhoes/win-gate-model-trainer/issues/new). Pull requests are welcome too.
